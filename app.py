@@ -12,7 +12,7 @@ st.set_page_config(page_title='DeepDBS', page_icon = icon)
 
 import zipfile
 with zipfile.ZipFile('./models/rf.zip', 'r') as zip_ref:
-    zip_ref.extractall(./models/)
+    zip_ref.extractall('./models/')
 
 def encodeSeq(seq):
     encoder = ['X', 'A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
