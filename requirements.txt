@@ -1,0 +1,5 @@
+biopython==1.79
+keras==2.8.0
+tensorflow==2.8.0
+scikit-learn==1.0.2
+click==8.0.4
